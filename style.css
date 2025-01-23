@@ -1,0 +1,115 @@
+
+
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.hero-section {
+    background-color: rgb(31,41,55);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 135px;
+    gap: 40px;
+    padding-top: 125px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31,41,55);
+    padding-left: 210px;
+    padding-right: 210px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 434px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(108, 116, 125);
+    max-width: 434px;
+    
+}
+
+.hero-content .button{
+    background-color: rgb(83, 142, 242);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+
+}
+
+.blocks-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.blocks-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.blocks-section h1 {
+    color: black
+}
+
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: rgb(194, 194, 194);
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(194, 194, 194);
+    font-family: sans-serif;
+    margin: 0px;
+    margin-bottom: 8px;
+}
