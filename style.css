@@ -8,7 +8,6 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -173,10 +172,45 @@ p {
     display: flex;
     flex: 1;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(59, 129, 246);
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 60px;
     padding-bottom: 60px;
     border-radius: 12px;
+}
+
+.CTA-container p {
+    color: rgb(225, 225, 225);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.CTA-title {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.CTA-container .button {
+    padding: 12px 30px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+}
+
+.Footer {
+    height: 100px;
+    background-color: rgb(31,41,55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
